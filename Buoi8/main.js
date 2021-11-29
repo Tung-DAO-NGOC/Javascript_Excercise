@@ -24,8 +24,10 @@ elButtonStart.addEventListener("click", function () {
 });
 
 elInput.addEventListener("change", function () {
-	if (elInput.value === "") {
+	if (!elInput.value || elInput.value.length === 0 || elInput.value.trim().length === 0) {
 		alert("You did not provide an answer!");
+		elInput.value = "";
+		return;
 	}
 
 	if (Number(elInput.value) === result) {
