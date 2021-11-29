@@ -24,7 +24,7 @@ elButtonStart.addEventListener("click", function () {
 });
 
 elInput.addEventListener("change", function () {
-	if ((elInput.value = "")) {
+	if (elInput.value === "") {
 		alert("You did not provide an answer!");
 	}
 
