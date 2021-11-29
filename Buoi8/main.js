@@ -49,8 +49,8 @@ function eventTimeout() {
 	elButtonStart.classList.remove("hidden");
 	alert(`Your score is: ${Number(elScore.innerText)}`);
 	blankPage();
-	renderScore(0);
 }
+
 function eventWrongAnswer() {
 	elBanner.classList.remove("hidden");
 	wrongBanner();
