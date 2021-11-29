@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" />
+		<link rel="stylesheet" href="style.css" />
+	</head>
+
+	<body>
+		<div class="container-fluid">
+			<div class="container">
+				<div class="hero">
+					<div class="logo">
+						<h1>Bảng công việc</h1>
+						<p>Tìm kiếm công việc phù hợp với bạn</p>
+						<h2 id="jobs-listed"><span>300</span> công việc có trong danh sách</h2>
+					</div>
+					<div class="menu">
+						<button id="show-all">Tất cả công việc</button>
+						<input id="search" type="text" placeholder="Tìm kiếm ..." autocomplete="off" />
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<h2 class="text-center mt-5">Danh sách công việc hiện có</h2>
+				</div>
+			</div>
+			<div class="row jobs">
+				<div class="col-md-3 job-card">
+					<div class="job-card-inner">
+						<h3>Software Engineer</h3>
+						<h4>$50</h4>
+						<ul>
+							<li>Node.js</li>
+							<li>Git</li>
+							<li>AWS</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<script src="script.js"></script>
+	</body>
+</html>
